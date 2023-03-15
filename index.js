@@ -7,10 +7,11 @@ function changeBackground () {
   backgroundColorText.style.padding = "5px"
     }
     
-function overcharge () {   
-        var overCharge = window.setInterval(function(){
-            changeBackground()
-        }, 100)
-        
-        overCharge
+function overcharge () {
+  var overCharge = window.setInterval(function(){
+    changeBackground()
+  }, 100)
+
+  const textChange = document.getElementById("textChange")
+  textChange.innerHTML = "ACELERAR"
     }
