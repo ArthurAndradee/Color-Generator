@@ -1,0 +1,49 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+#background-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15%;
+
+    width: 35%;
+    
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-size: 200%;
+    
+    padding: 5px;
+    border: black solid 2px;
+    border-radius: 20px;
+}
+
+#background-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+
+    width: 27%;
+    
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-size: 170%;
+    
+    padding: 0px;
+    border: black solid 0px;
+    border-radius: 20px;
+}
